@@ -20,7 +20,7 @@ def binary_search(array, element, left, right):
 
 def main():
     num = None
-    string = "5 6 8 3 4 2 8 11 90 77 63 13 55 1 98"
+    string = "5 6 8 3 4 2 8 11 62 7 89 90"
     try:
         num = int(input("Введите число: "))
         int_list = list(map(int, string.split()))
