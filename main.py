@@ -19,9 +19,8 @@ def binary_search(array, element, left, right):
 
 
 def main():
-    # list = input("Введите последовательность чисел через пробел: ")
     num = None
-    string = "5 6 8 3 4 2 8 11"
+    string = "5 6 8 3 4 2 8 11 62 7 89 90"
     try:
         num = int(input("Введите число: "))
         int_list = list(map(int, string.split()))
