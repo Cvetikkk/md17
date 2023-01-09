@@ -16,7 +16,7 @@ def help(message: telebot.types.Message):
 
 @bot.message_handler(commands=['values', ])
 def values(message: telebot.types.Message):
-    text = "Доступные валыты: "
+    text = "Доступные валюты: "
     for key in keys.keys():
         text = '\n'.join((text,key, ))
     bot.reply_to(message, text)
