@@ -1,5 +1,4 @@
 import telebot
-
 from cod import keys, TOKEN
 from extensions import ConvertionException, Convert
 
@@ -44,3 +43,6 @@ def get_price(message: telebot.types.Message):
 
 
 bot.polling(none_stop=True)
+
+
+# Телеграм-бот для конвертации валют. Имя в телеграме @CryptocurrencyVLG_bot
